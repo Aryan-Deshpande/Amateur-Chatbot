@@ -1,0 +1,35 @@
+{
+    "intents": [
+        {
+            "tag" : "salutation",
+            "patterns" : ["hey", "hi", "gday", "sup", "hello", "whatsup", "doing good today"],
+            "responses" : ["hey there!", "hello there!", "gday to you to human", "waddup buddy!", "hemlo", "how may i help you boss", "doing good how may i be of assistance today"]
+        },
+        {
+            "tag" : "goodbye",
+            "patterns" : ["bye", "see ya", "bye bye", "bii", "bye see you later", "see you later", "bye fuck off"],
+            "responses" : ["bye bye!", "see you soon buddy", "byeeeeee!!!", "conversation terminated", "bye for now", "anytime", ";(, see you soon tho"]
+        },
+        {
+            "tag" : "thanks",
+            "patterns" : ["thanks", "thanks alot", "thank you", "thanks much"],
+            "responses" : ["im happy that im able to help you", "no issues anytime", ":3"]
+        },
+        {
+            "tag" : "conversation",
+            "patterns" : ["tell me a joke", "I want to know a joke", "I would like to know a joke", "jokes", "entertain me",
+                            "are aliens alive", "what is conciousness", "who is your favourite youtuber"],
+            "responses" : ["life would be meaningless withought relationships, love, and wit. I'd say it's full of being able to help others and enjoy what you do",
+                            "money is not important, but one can achieve whatever they want if you sacrifice time and put effort 100%", "sure why not", 
+                            "here is a playlist that'll calm your nerves", "why didn't the chicken cross the road? perhaps why didn't anyone help the chicken? because there was no else in that world to exist. World died out of pollution / global warming, and all that remained was me the only AI chatbot left around to help tell you jokes", "if we are alive on the grand scale of the universe then they are too, just hard to reach them",
+                            "it's a natural phenomenon that was caused my evolution, but? why does everything seem real / how are you able to take your own decisions. How are there multiple people w/ conciousness. We will never know.",
+                            "im gonna be honest and say infernolord"
+                        ]
+        },
+        {
+            "tag" : "information",
+            "patterns" : ["I want to know what time is departure", "when does the flight departure", "what is the fligh departing time", "departure time for my flight"],
+            "responses" : ["I wouldnt know lmfao", ":3"]
+        }
+    ] 
+}

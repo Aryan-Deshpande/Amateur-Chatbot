@@ -18,7 +18,6 @@ model.load_state_dict(model_state)
 
 tags = data['tags']
 while True:
-    pass
     sentence = input(" - ")
 
     sentence = tokenize(sentence)
